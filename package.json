@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Hyphenates a camelcased CSS property name",
   "main": "index.js",
+  "module": "es/index.js",
   "scripts": {
     "coverage": "nyc tape -- test/**/*.test.js",
     "lint": "eslint .",
